@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="countens">
+        <item>🔘Urgent</item>
+        <item>🟣High</item>
+        <item>🟢🤌Normal</item>
+        <item>🟠Low</item>
+    </string-array>
+</resources>

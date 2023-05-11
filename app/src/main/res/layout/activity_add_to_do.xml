@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@color/white"
+    tools:context=".AddToDo">
+    <EditText
+        android:id="@+id/edt_1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="@color/black"
+        android:paddingStart="15dp"
+        android:background="@drawable/edt_card"
+        android:hint="To do name"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp"
+        tools:ignore="RtlSymmetry" />
+    <EditText
+        android:id="@+id/edt_2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingStart="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:background="@drawable/edt_card"
+        android:hint="To do description"
+        android:layout_marginBottom="20dp"
+        tools:ignore="RtlSymmetry" />
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingStart="15dp"
+        android:layout_marginTop="10dp"
+        android:paddingTop="15dp"
+        android:background="@drawable/edt_card"
+        android:layout_marginBottom="20dp"
+        tools:ignore="RtlSymmetry" />
+    <EditText
+        android:id="@+id/edt_3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingStart="15dp"
+        android:textColor="@color/black"
+        android:background="@drawable/edt_card"
+        android:hint="To do create date"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp"
+        tools:ignore="RtlSymmetry" />
+    <EditText
+        android:id="@+id/edt_4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingStart="15dp"
+        android:textColor="@color/black"
+        android:background="@drawable/edt_card"
+        android:hint="To do dedline"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp"
+        tools:ignore="RtlSymmetry" />
+    <Button
+        android:id="@+id/movieSave"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Save"
+        android:layout_marginStart="120dp"
+        android:backgroundTint="#D93BC9"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
